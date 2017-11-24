@@ -1,9 +1,9 @@
-# Github Preview Theme
+# Colorfi Preview Theme
 
-A default Markdown preview theme for [Inkdrop](https://www.inkdrop.info/).
+A custom Markdown preview theme for [Inkdrop](https://www.inkdrop.info/).
 
- * `styles/github-markdown.less` - Styles for light UI theme
- * `styles/github-markdown-dark.less` - Styles for dark UI theme
+ * `styles/colorfi-markdown.less` - Styles for light UI theme
+ * `styles/colorfi-markdown-dark.less` - Styles for dark UI theme
 
 ## Theming code blocks
 
