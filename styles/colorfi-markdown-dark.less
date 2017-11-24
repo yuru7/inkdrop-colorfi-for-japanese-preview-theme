@@ -6,7 +6,6 @@ body[class*="dark-ui"] {
   @body-color:                  fade(@color-white-off, 90%);
   
   // Headings
-  @all-headings:                h1, h2, h3, h4, h5, h6;
   @heading-color:               fade(@color-white, 90%);
   @heading-color-alt:           fade(@color-white, 65%);
   
@@ -51,7 +50,7 @@ body[class*="dark-ui"] {
       color: @link-color-normal;
     }
 
-    @{all-headings} {
+    h1, h2, h3, h4, h5, h6 {
       color: @heading-color;
     }
 

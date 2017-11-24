@@ -24,7 +24,6 @@
   @body-color:                  fade(@color-black-off, 90%);
   
   // Headings
-  @all-headings:                h1, h2, h3, h4, h5, h6;
   @heading-color:               fade(@color-black, 90%);
   @heading-color-alt:           fade(@color-black, 65%);
   
@@ -157,7 +156,7 @@
     content: "";
   }
 
-  @{all-headings} {
+  h1, h2, h3, h4, h5, h6 {
     margin-top: 15px;
     margin-bottom: 15px;
     line-height: 1.1;
