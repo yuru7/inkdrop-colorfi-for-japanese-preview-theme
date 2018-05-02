@@ -2,11 +2,11 @@
 
 A custom Markdown preview theme for [Inkdrop](https://www.inkdrop.info/).
 
-デフォルトの Github テーマでは日本語部分がメイリオになってしまい斜体が表示されないため、日本語環境向けのフォント設定を適用しています。
+デフォルトの Github テーマでは日本語部分がメイリオになってしまい斜体が表示されないため、日本語環境向けのフォント設定を設定してみました。
 
- [Colorfi Preview Theme](https://github.com/laurenhamel/inkdrop-colorfi-preview-theme) からフォークさせていただきました。
+コードブロックの文字色が美しい [Colorfi Preview Theme](https://github.com/laurenhamel/inkdrop-colorfi-preview-theme) からフォークさせていただいています。
 
-日本語文字部分に対してのみ、Windows では游ゴシック Medium, Mac では通常の游ゴシックが適用される想定でいますが、Windows でしか動作確認はできていません。
+日本語文字部分に対してのみ、Windows では游ゴシック Medium, Mac では通常の游ゴシックが適用される想定ではいますが、Windows でしか動作確認はできていません。
 
 ## Theming code blocks
 
