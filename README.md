@@ -2,8 +2,11 @@
 
 A custom Markdown preview theme for [Inkdrop](https://www.inkdrop.info/).
 
- * `styles/colorfi-markdown.less` - Styles for light UI theme
- * `styles/colorfi-markdown-dark.less` - Styles for dark UI theme
+デフォルトの Github テーマでは日本語部分がメイリオになってしまい斜体が表示されないため、日本語環境向けのフォント設定を適用しています。
+
+ [Colorfi Preview Theme](https://github.com/laurenhamel/inkdrop-colorfi-preview-theme) からフォークさせていただきました。
+
+日本語文字部分に対してのみ、Windows では游ゴシック Medium, Mac では通常の游ゴシックが適用される想定でいますが、Windows でしか動作確認はできていません。
 
 ## Theming code blocks
 
