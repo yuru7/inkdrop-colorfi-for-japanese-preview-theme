@@ -1,7 +1,7 @@
 {
   "name": "colorfi-for-japanese-preview",
   "description": "Colorfi preview theme of Inkdrop Markdown Editor for Japanese.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "theme": "preview",
   "repository": "https://github.com/laurenhamel/inkdrop-colorfi-preview-theme",
   "license": "MIT",
