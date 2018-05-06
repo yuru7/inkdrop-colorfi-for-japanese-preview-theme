@@ -8,6 +8,12 @@ A custom Markdown preview theme for [Inkdrop](https://www.inkdrop.info/).
 
 日本語文字部分に対してのみ、Windows では游ゴシック Medium, Mac では通常の游ゴシックが適用される想定ではいますが、Windows でしか動作確認はできていません。
 
+## Install
+
+```
+ipm install colorfi-for-japanese-preview
+```
+
 ## Theming code blocks
 
 Highlighting code blocks is built with [CodeMirror](https://codemirror.net/demo/theme.html), and CSS selectors for styling code blocks are compatible with it.
