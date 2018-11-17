@@ -13,7 +13,6 @@
 .mde-preview {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  color: #333;
   line-height: 1.6;
   word-wrap: break-word;
   
@@ -59,6 +58,8 @@
   @code-color:                  @color-fuschia;
   @code-background:             fade(@color-black-off, 3%);
   
+  color: @body-color;
+
   a {
     background-color: transparent;
   }
@@ -70,6 +71,7 @@
 
   strong {
     font-weight: bold;
+    color: @color-black;
   }
 
   h1 {
