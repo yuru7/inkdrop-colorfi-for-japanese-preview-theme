@@ -24,3 +24,5 @@ ipm install colorfi-for-japanese-preview
 Highlighting code blocks is built with [CodeMirror](https://codemirror.net/demo/theme.html), and CSS selectors for styling code blocks are compatible with it.
 CSS selectors always start with `cm-`.
 You can easily import styles from [CodeMirror's theme](https://github.com/codemirror/CodeMirror/tree/master/theme).
+
+![image](https://raw.githubusercontent.com/yuru7/inkdrop-colorfi-for-japanese-preview-theme/image/ss1.png)
