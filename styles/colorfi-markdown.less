@@ -74,11 +74,6 @@
     color: @color-black;
   }
 
-  h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-  }
-
   img {
     border: 0;
   }
@@ -95,8 +90,8 @@
   code,
   kbd,
   pre {
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 1em;
+    font-family: Consolas, Monaco, "Liberation Mono", Menlo, Courier, monospace !important;
+    font-size: 0.95em !important;
   }
 
   input {
@@ -174,29 +169,11 @@
   }
 
   h1 {
-    font-size: 30px;
     border-bottom: double 4px @heading-color-alt;      
   }
 
   h2 {
-    font-size: 21px;
     border-bottom: solid 2px @heading-color-alt;    
-  }
-
-  h3 {
-    font-size: 16px;
-  }
-
-  h4 {
-    font-size: 14px;
-  }
-
-  h5 {
-    font-size: 12px;
-  }
-
-  h6 {
-    font-size: 11px;
   }
 
   blockquote {
@@ -226,15 +203,9 @@
     margin-left: 0;
   }
 
-  code {
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 12px;
-  }
-
   pre {
     margin-top: 0;
     margin-bottom: 0;
-    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
   }
 
   .select::-ms-expand {
@@ -482,7 +453,6 @@
     padding-top: 0.2em;
     padding-bottom: 0.2em;
     margin: 0;
-    font-size: 85%;
     background-color: @code-background;
     border-radius: 3px;
   }
@@ -496,7 +466,6 @@
   pre > code {
     padding: 0;
     margin: 0;
-    font-size: 100%;
     word-break: normal;
     white-space: pre;
     background: transparent !important;
@@ -511,7 +480,7 @@
   pre {
     padding: 16px;
     overflow: auto;
-    font-size: 85%;
+    font-size: 95%;
     line-height: 1.45;
     background-color: @code-background;
     border-radius: 3px;
@@ -626,7 +595,6 @@
   kbd {
     display: inline-block;
     padding: 3px 5px;
-    font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
     line-height: 10px;
     color: #555;
     vertical-align: middle;
